@@ -1,0 +1,88 @@
+
+body{
+  background-color: #4ae;
+}
+#root{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#clock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+  height: auto;
+  min-height: 80vh;
+  background-color: #bbf;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px black;
+}
+#title{
+  text-align: center;
+}
+#timer-length-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#session-label, #break-label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lengthLabels{
+  text-align: center;
+}
+.lengthControls{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+  border-radius: 100px;
+  height:1.2rem;
+  border: 2px solid #4ae;
+}
+.lengthControls button{
+  border-radius: 100px;
+  border: none;
+  font-weight: bold;
+  background-color: #4ae;
+}
+.lengthControls h3{
+  align-self: center;
+}
+#timer-container{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 80%;
+  border-radius: 50px;
+}
+#controls-container{
+  align-self: center;
+}
+#controls-container button{
+  background-color: rgba(0,0,0,0);
+  border: none;
+  color: #4ae;
+  font-size: 2rem;
+  box-shadow: 0px 2px 4px 0px black;
+  margin: 1rem;
+}
+#controls-container button:hover{
+  
+  color: #19e;
+  cursor: pointer;
+}
+#controls-container button:focus {
+  transform: scale(0.9);
+  box-shadow: none;
+  outline: none;
+}
