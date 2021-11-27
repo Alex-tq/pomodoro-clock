@@ -140,7 +140,7 @@ class PomodoroClock extends React.Component{
         />
         <audio 
           id="beep" 
-          src="https://goo.gl/65cBl1"
+          src="https://freesound.org/data/previews/213/213795_4001802-lq.mp3"
           ref={(audioClip) => { this.sound = audioClip; }}
           />
       </div>    
